@@ -1,0 +1,8 @@
+streamlit
+pydantic
+faiss-cpu
+chromadb
+pypdf
+sqlalchemy
+python-dotenv
+pytest

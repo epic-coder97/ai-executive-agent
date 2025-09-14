@@ -1,0 +1,12 @@
+- name: schedule_and_draft
+  task: "Find a 30 minute slot with Alex next Tuesday and draft the email but do not send until I approve."
+  expects:
+    artifacts:
+      - candidate_slots
+      - email_draft_id
+
+- name: expense_report
+  task: "Create an expense report for October Ops with a placeholder receipt."
+  expects:
+    artifacts:
+      - expense_report
